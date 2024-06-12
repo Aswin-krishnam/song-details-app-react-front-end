@@ -7,7 +7,7 @@ const Navbar = () => {
 
             <nav className="navbar navbar-expand-lg bg-primary">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="index.html">Song App</Link>
+                    <Link className="navbar-brand" to="/">Song App</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -16,6 +16,7 @@ const Navbar = () => {
                         <div className="navbar-nav">
 
                             <Link className="nav-link" to="/">Add Songs</Link>
+                            <Link className="nav-link" to="/search">Search Songs</Link>
                             <Link className="nav-link" to="/viewall">View All Songs</Link>
              
                         </div>
