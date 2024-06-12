@@ -76,6 +76,7 @@ const AddSong = () => {
                                     <option value="Bollywood">Bollywood</option>
                                     <option value="Carnatic">Carnatic</option>
                                     <option value="Hindustani">Hindustani</option>
+                                    <option value="Melody">Melody</option>
                                 </select>
     
                             </div>
